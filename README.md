@@ -3,9 +3,9 @@
 # CodeFile
 
     import * as React from 'react';
+    // expo install expo-battery
     import * as Battery from 'expo-battery';
     import {Text, View } from 'react-native';
-
 
     export default class App extends React.Component {
       state = {
